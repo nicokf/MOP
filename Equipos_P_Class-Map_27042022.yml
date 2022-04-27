@@ -8,7 +8,7 @@
   tasks:
     - name: Class-Map     
       cisco.iosxr.iosxr_config:
-        src: "{{ playbook_dir }}/Class-Map_27042022.txt"
+        src: "{{ playbook_dir }}/Equipos_P_Class-Map_27042022.txt"
 
       register: Class
 
